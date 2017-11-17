@@ -1,0 +1,328 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 10, 2016, 9:11:00 AM
+    Author     : zubinpvazu
+*/
+
+.left-partition
+{
+    border-left:2px solid #E5E5E5;
+    margin: 5px 0;
+}
+#buttons{
+    float:right;
+    position:relative;
+    left:-52%;
+    text-align:left;
+}
+#buttons ul{
+    list-style:none;
+    position:relative;
+    left:50%;
+}
+.goldrate-box
+{
+    background-image: url("../images/gold-rate-bg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    border: 2px solid rgb(228, 175, 65);
+    border-radius: 10px;
+    height: 45px;
+    padding-left: 5px;
+    padding-top: 10px;
+    width: 100%;
+    font-weight: bold;
+}
+#buttons li{float:left;position:relative;}/* ie needs position:relative here*/
+
+#buttons a{
+    text-decoration:none;
+    /*margin:10px;*/
+    
+    float:left;
+    text-transform: uppercase;
+    color:#000;
+    /*padding:5px 35px;*/
+    text-align:center;
+    
+}
+#buttons a:hover{ 
+    font-weight: bold;
+}
+.header-top
+{
+    background-color: #ECAA2F;
+    height: 25px;
+    color:#FFFFFF;
+}
+.header-top span
+{
+    font-size: 13px;
+}
+.header-middle
+{
+    background-color: #FFFFFF;
+    height: 90px;
+    border-bottom: 2px solid #ECAA2F;
+}
+.header-menu
+{
+    background-color: #F8F8F8;
+    height: 50px;
+}
+.new-line
+{
+    display: block;
+}
+.single-line
+{
+    display: inline-block;
+}
+.ico-color
+{
+    color:#ECAA2F;
+}
+.to-right
+{
+    text-align: right;
+}
+.foot-title
+{
+    color: #3D3B3C;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    
+    
+}
+.foot-title:hover
+{
+    color: #3D3B3C;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+.foot-item-up
+{
+    display: block;
+    color: #929292;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.foot-item-up:hover
+{
+    
+    color: #929292;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.vertical-gap
+{
+    margin: 20px 0px; 
+}
+.navbar
+{
+    margin-bottom: 0px !important;
+}
+.jewellery-back{
+    width:98%;
+    margin: 0px auto;
+    height:320px;
+ }
+ .jewellery-gold
+ {
+     background-image: url('../images/gold-back.png');
+ }
+  .jewellery-dmnd
+ {
+     background-image: url('../images/diamond-back.png');
+ }
+  .jewellery-slvr
+ {
+     background-image: url('../images/silver-back.png');
+ }
+ .jewellery-inner
+ {
+     height: 265px;
+     
+ }
+ .jewellery-bottom
+ {
+     height: 48px;
+     
+ }
+ .jewellery-bottom-box
+ {
+     border: 2px solid black;
+     height:35px;
+     margin-top: 10px;
+     white-space: nowrap;
+ }
+ .adjust-smaal-height{
+     height: 100px;
+     white-space: normal;
+ }
+ .default-color
+ {
+     color:#ECAA2F;
+ }
+ .white-color{
+     color: white;
+ }
+ .black-color
+ {
+     color: black;
+ }
+ .adjust-line
+ {
+     margin-top: -10px;
+ }
+ .adjust-promo-gap{
+     height: auto;
+     margin: 20px 0px;
+ }
+ .promo-box{
+     width:98%;
+     margin: 0px auto;
+ }
+ .promo-image-size
+ {
+     width:98%;
+     height:200px;
+ }
+ .under-line
+ {
+     text-decoration: underline;
+ }
+ .product-menu
+ {
+     list-style-type: none;
+ }
+ .product-menu li
+ {
+     margin: 10px;
+     text-transform: uppercase;
+     cursor: pointer;
+ }
+ .product-box{
+     width: 260px;
+     border: 2px solid grey;
+     margin: 20px 0px;
+     text-align: center;
+     height: 260px;
+ }
+ .product-desc-item{
+     width: 190px;
+     height: 250px;
+ }
+ .extra-width
+ {
+     width:250px;
+ }
+ .no-border-table tr td
+ {
+     border-top: none !important;
+ }
+ .galllery-item
+ {
+	cursor: pointer;
+ 	
+	
+ }
+ #address
+ {
+     width:100%;
+     text-transform: uppercase;
+     display: block;
+ }
+  #district
+ {
+     width:100%;
+     text-transform: uppercase;
+     display: block;
+ }
+  #contact
+ {
+     width:100%;
+     text-transform: uppercase;
+     display: block;
+ }
+ #stores {
+     text-transform: uppercase;
+ }
+ .aboutus
+ {
+    background-image: url('../images/aboutus.png');
+ }
+ .about-image-size
+ {
+     width:585px;
+     height:350px;
+ }
+ .about-other-back{
+     background-color: #CDB64C;
+     height:350px;
+     color: white;
+     
+ }
+ .about-other-style
+ {
+     padding-left: 0px;
+     margin-left: 15px;
+     padding-right: 0px;
+     
+     margin-right: -15px;
+ }
+@media ( min-width : 320px) and (max-width: 479px) {
+   
+    .to-align{
+        text-align: center;
+    }
+    .full-width{
+        width:100%;
+    }
+    .left-partition{
+        border: none;
+    }
+    .suppress-here{
+        display: none;
+    }
+   .header-middle
+   {
+       height: auto;
+       text-align: center;
+   }
+   #buttons li{
+       float: none;
+   }
+   .fill-menu-width{
+       padding-left: 0px;
+       padding-right: 0px;
+   }
+   .new-line{
+       display: inline-block;
+   }
+    
+}
+@media ( min-width : 480px) and (max-width: 759px) {
+     .single-line{
+        display: inline-block;
+    }
+    .to-right
+    {
+        float: right;            
+    }
+}
+@media ( min-width : 760px) and (max-width: 979px) {
+   
+}
+@media ( min-width : 1200px) {
+     #buttons a{
+        margin:10px;
+        padding:5px 35px;
+    }
+}
